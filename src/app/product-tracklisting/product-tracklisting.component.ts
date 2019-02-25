@@ -11,7 +11,7 @@ export class ProductTracklistingComponent implements OnInit {
   albumInfo: Album;
   private _productService: ProductService;
 
-  constructor(_productService: ProductService) {
+  constructor(private _productService: ProductService) {
     this._productService = _productService;
   }
 
